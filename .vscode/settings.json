@@ -4,14 +4,16 @@
     "javascript.validate.enable": false,
     "eslint.validate": ["typescript", "typescriptreact"],
     "eslint.workingDirectories": ["./src"],
-    "editor.codeActionsOnSave": {"source.fixAll.eslint": true},
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
 
     // Use Non-relative imports so the game can find files in its fake directory structure
     "javascript.preferences.importModuleSpecifier": "non-relative",
     "typescript.preferences.importModuleSpecifier": "non-relative",
 
     // Bitburner Extension Settings
-    "bitburner.scriptRoot": "./dist/",
+    "bitburner.scriptRoot": "./src/",
 
     // Autosave Settings
     "files.autoSave": "off",
@@ -23,4 +25,7 @@
             "snippet": "ns-template"
         },
     ],
+    "bitburner.authToken": "rDat0w1TUXmrIQ7ukBBgd+AZ8SARrMua2DFFoG2cwU8ffaMglGpiJ2tQdecFIJYZ",
+    "bitburner.showFileWatcherEnabledNotification": true,
+    "bitburner.showPushSuccessNotification": true,
 }
