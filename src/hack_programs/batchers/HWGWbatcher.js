@@ -30,7 +30,7 @@ export class HWGWbatcher  {
     this.cores = ns.getServer().cores;
 
     this.INTERVAL = 500;
-    this.HACK_PERCENTAGE = 0.90;
+    this.HACK_PERCENTAGE = 0.25;
     this.GROW_PADDING = 2;
     this.WEAK_PADDING = 2;
     this.MONEY_TOLERANCE = 1.005;
